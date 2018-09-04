@@ -1,11 +1,19 @@
 {
-  "name": "root",
-  "private": true,
-  "devDependencies": {
-    "lerna": "^3.0.0-rc.0"
-  },
+  "name": "happening",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "devfe": "npm -C ./packages/frontend run start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samrocksc/happening-mono.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samrocksc/happening-mono/issues"
+  },
+  "homepage": "https://github.com/samrocksc/happening-mono#readme"
 }
